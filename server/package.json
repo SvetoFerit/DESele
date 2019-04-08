@@ -1,5 +1,5 @@
 {
-  "name": "cocotask",
+  "name": "DESelect",
   "version": "1.0.0",
   "private": true,
   "main": "index.js",
@@ -10,13 +10,8 @@
     "server": "node server.js",
     "dev": "concurrently \"npm run server\" \"npm run client\""
   },
-  "repository": {
-    "type": "git",
-    "url": "git+https://svetozarRadic@bitbucket.org/svetozarRadic/cocotask.git"
-  },
   "author": "Svetozar",
   "license": "ISC",
-  "homepage": "https://bitbucket.org/svetozarRadic/cocotask#readme",
   "dependencies": {
     "body-parser": "^1.18.3",
     "concurrently": "^4.1.0",
