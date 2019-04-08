@@ -1,0 +1,66 @@
+.student-form {
+  width: 340px;
+  margin: 50px auto;
+}
+
+.student-form form {
+  margin-top: 50px;
+  margin-bottom: 15px;
+  background: #f7f7f7;
+  box-shadow: 0px 2px 2px rgba(0, 0, 0, 0.3);
+  padding: 50px;
+}
+
+.student-form h2 {
+  margin: 0 0 15px;
+}
+
+.form-control {
+  min-height: 38px;
+  border-radius: 2px;
+}
+
+.btn {
+  min-height: 38px;
+  border-radius: 2px;
+  font-size: 15px;
+  font-weight: bold;
+}
+
+.mycard {
+  width: 20rem;
+  margin: 50px auto;
+  position: relative;
+  display: flex;
+  flex-direction: column;
+  min-width: 0;
+  word-wrap: break-word;
+  background-color: #fff;
+  background-clip: border-box;
+  border-radius: 0.25rem;
+}
+
+.mycard-header {
+  padding: 10px;
+  border-color: green;
+  margin: 15px;
+  margin-bottom: 5px;
+}
+
+.form-control2 {
+  background-color: #fff;
+  padding: 0.375rem 0.75rem;
+  margin-top: 10px;
+  width: 100%;
+  border: 2px solid #ad1;
+}
+
+.mylist-group {
+  display: flex;
+  flex-direction: column;
+  padding-left: 5px;
+  padding-right: 5px;
+  background-color: lightblue;
+  margin-bottom: 45px;
+  padding-bottom: 45px;
+}

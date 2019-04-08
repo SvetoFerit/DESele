@@ -1,0 +1,39 @@
+{
+  "name": "cocotask",
+  "version": "1.0.0",
+  "private": true,
+  "main": "index.js",
+  "scripts": {
+    "client": "cd.. && cd client && npm start",
+    "start": "server.js",
+    "test": "jest --watch",
+    "server": "node server.js",
+    "dev": "concurrently \"npm run server\" \"npm run client\""
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://svetozarRadic@bitbucket.org/svetozarRadic/cocotask.git"
+  },
+  "author": "Svetozar",
+  "license": "ISC",
+  "homepage": "https://bitbucket.org/svetozarRadic/cocotask#readme",
+  "dependencies": {
+    "body-parser": "^1.18.3",
+    "concurrently": "^4.1.0",
+    "cors": "^2.8.5",
+    "debug": "~2.6.9",
+    "eslint": "^5.6.0",
+    "express": "~4.16.0",
+    "lodash": "^4.17.11",
+    "mongodb": "^3.1.10",
+    "mongoose": "^5.3.15",
+    "nodemon": "^1.18.7"
+  },
+  "devDependencies": {
+    "eslint-config-airbnb": "^17.1.0",
+    "eslint-config-airbnb-base": "^13.1.0",
+    "eslint-plugin-import": "^2.14.0",
+    "eslint-plugin-jsx-a11y": "^6.1.1",
+    "eslint-plugin-react": "^7.11.0"
+  }
+}
